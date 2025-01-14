@@ -18,7 +18,7 @@ if st.button("Send"):  # check wether the button for our prompt is clicked
     # gpt method text generation
     generate_text(open_ai_prompt)
     # success message
-    st.sucess("Content generated successfully")
+    st.success("Content generated successfully")
 else:
     # error message if prompt is not entered.
     # st.error("Content generation failed")

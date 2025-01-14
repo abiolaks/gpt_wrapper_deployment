@@ -44,7 +44,7 @@ def generate_image(prompt):
 
     image_response = requests.get(image_url)
     # save image to file
-    with open("../image_folder/image.jpg", "wb") as f:
+    with open("image.jpg", "wb") as f:
         f.write(image_response.content)
 
 
