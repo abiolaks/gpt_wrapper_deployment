@@ -30,7 +30,7 @@ st.header("Image Generation")
 # variable to store the prompt
 openai_image_prompt = st.text_input("Enter your prompt", key=2)
 
-if st.button("Send", key=2):
+if st.button("Send", key=3):
     # gpt method image generation
     generate_image(openai_image_prompt)
     st.success("Image generated successfully")
