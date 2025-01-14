@@ -5,7 +5,7 @@ import streamlit as st
 from gpt_wrapper import generate_text, generate_image
 
 # title of the app
-st.title("Brings Your Though and Imagination to Life- KING AI")
+st.title("Thought and Imaginations are Real- KING AI")
 
 # Header for the openai wrapper
 st.header("Text Generator")
